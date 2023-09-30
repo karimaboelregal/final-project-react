@@ -1,6 +1,7 @@
 import AdminLTE, { Sidebar } from 'adminlte-2-react';
 import Users from './Users/Users';
 import Products from './Products/Products';
+import Categories from './Categories/Categories';
 const { Item } = Sidebar;
 
 
@@ -17,6 +18,7 @@ function Navbar() {
             <AdminLTE title={["Admin"]} titleShort={["Admin"]} theme="green" sidebar={sidebar} homeTo='/users'>
                 <Users path='/users' />
                 <Products path="/products"/>
+                <Categories path="/categories"/>
             </AdminLTE>
         </div>
     );
