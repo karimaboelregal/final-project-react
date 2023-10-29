@@ -1,11 +1,11 @@
-import Navbar from './Components/Sidebar';
-import './App.css';
+import Handler from './Components/Handler';
 
 function App() {
 
 
 	return (
-		<Navbar></Navbar>
+		
+		<Handler></Handler>
 	);
 }
 

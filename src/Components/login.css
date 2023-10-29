@@ -1,0 +1,36 @@
+html,
+body {
+  height: 100%;
+  background-color: #342e3c;
+}
+
+.loginbox {
+    background-color: #312938;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    height: fit-content;
+}
+
+.headerText {
+    display: block;
+    font-size: 20px;
+    padding: 0;
+}
+
+.loginbox input {
+    font-size: 15px;
+    width: 250px
+}
+
+.loginbutton {
+    font-size: 15px;
+    width: 100px
+}
+
+
+.hideLogin {
+    opacity: 0;
+    height: fit-content;
+    font-size: 12px;
+}
